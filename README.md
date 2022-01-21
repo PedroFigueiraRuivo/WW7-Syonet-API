@@ -39,11 +39,11 @@
 &lt /div &gt <br/>
 <br/>
 &lt div id="ww7syonetapi_vehicle" &gt <br/>
-    &lt label &gt Veículo de interesse [select* modelo include_blank "HB20" "HB20S" "HB20X" "HB20 Sport" "Creta Nova Geração" "Creta Action"] &lt /label &gt <br/>
+    &lt label &gt Veículo de interesse [select* modelo include_blank "modelo1" "modelo2" "modelo3" "modelo4" "modelo5" "modelo..." "modeloN"] &lt /label &gt <br/>
 &lt /div &gt <br/>
 <br/>
 &lt div id="ww7syonetapi_city" &gt <br/>
-    &lt label &gt Cidade [select* cidade include_blank "Caruaru" "Petrolina"] &lt /label &gt <br/>
+    &lt label &gt Cidade [select* cidade include_blank "Cidade1" "Cidade2", "Cidade...", "CidadeN"] &lt /label &gt <br/>
 &lt /div &gt <br/>
 <br/>
 &lt div id="ww7syonetapi_message" &gt <br/>
