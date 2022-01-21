@@ -15,6 +15,9 @@
 
 <h2>Acesso ao Projeto</h2>
 <p>Os arquivos podem ser baixados diretamente desse repositório em "code&gtDownload ZIP" e um arquivo .zip será baixado para a sua máquina.</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/93988164/150459956-713b4e7b-2a37-41d7-896d-5e65c814ca41.gif">
+</div>
 
 <h3>Configurando o ambiente</h3>
 <p>Com o download feito, basta descompactar o arquivo no diretório de plugins do wordpress e renomear a pasta para: <code>ww7-syonet-api</code>. Após isso, vá para o painel de plugins e ative o plugin. Com o plugin ativado, será criado um novo menu de administração nomeado como "WW7 - Syonet API".</p>
@@ -22,6 +25,10 @@
 <p>Nessa aba estarão disponíveis 8 (oito) campos para configurar a integração com o sistema. Lembrando que <b>o valor dos campos é único e disponibilizado apenas pela empresa e não será abordado nessa documentação</b>.</p>
 
 <p>Com o devido preenchimento dos campos, basta clicar em "Submit" e os dados serão setados no Banco de dados do WordPress.</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/93988164/150458879-87890919-cd3a-4cc2-9f02-1150cc413c4f.gif">
+</div>
+
 
 <p>Depois de configurar os dados de integração corretamente, você deverá acessar o painel do plugin contact form 7 no menu "contato&gtFormulários de contato", criar um novo formulário, nomea-lo como "WW7 - Syonet API" para a fácil identificação e, adicionar os seguintes campos com as segintes ID's:</p>
 
@@ -56,10 +63,13 @@
 </blockquote>
 
 <p>Feito isso, salve o formulário.</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/93988164/150462537-2fb070e0-9e5c-4e5d-aecf-a4ba871f5af3.gif">
+</div>
 
 <h3>Formas de uso</h3>
 <p>Para utilizar o plugin, basta que você cole o shortcode do Contact Form 7 onde desejar em sua página e, <strong>abaixo dele</strong>, você deverá colar o shortcode do plugin WW7 Syonet API específico para o Contact Form 7: <code>[ww7-syonet-api form="C7"]</code>.</p>
-
+<img src="https://user-images.githubusercontent.com/93988164/150455992-0ed79530-bf16-443d-9352-fffc2c804456.png" >
 
 <h2>Tecnologias utilizadas</h2>
 <ul>
@@ -70,11 +80,4 @@
 
 
 <h2>Desenvolvedores</h2>
-<div>
-<a href="https://github.com/PedroFigueiraRuivo"><img width="100px" src="https://avatars.githubusercontent.com/u/93988164?v=4"></a>
-<p>Pedro Figueira</p>
-</div>
-
-
-
-<p></p>
+<a href="https://github.com/PedroFigueiraRuivo"><img width="100px" src="https://avatars.githubusercontent.com/u/93988164?v=4"><p>Pedro Figueira</p></a>
