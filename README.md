@@ -6,7 +6,7 @@
   <a href="https://br.wordpress.org/plugins/contact-form-7/"><img src="https://img.shields.io/badge/Dependência-Plugin_contact_form_7-orange"></a>
 </div>
 <br/>
-<p>Plugin responsável por criar uma cópia dos dados do formulário digitados pelo usuário e enviar para o sistema de captura de leads Syonet.</p>
+<p>Plugin responsável por criar uma cópia dos dados do formulário digitados pelo usuário e enviar para o sistema de captura de leads Syonet. Utiliza-se o plugin Contact Form 7 como base para realizar tal ação.</p>
 
 <h2>Funcionalidades do projeto</h2>
 
@@ -22,15 +22,14 @@
 <h3>Configurando o ambiente</h3>
 <p>Com o download feito, basta descompactar o arquivo no diretório de plugins do wordpress e renomear a pasta para: <code>ww7-syonet-api</code>. Após isso, vá para o painel de plugins e ative o plugin. Com o plugin ativado, será criado um novo menu de administração nomeado como "WW7 - Syonet API".</p>
 
-<p>Nessa aba estarão disponíveis 8 (oito) campos para configurar a integração com o sistema. Lembrando que <b>o valor dos campos é único e disponibilizado apenas pela empresa e não será abordado nessa documentação</b>.</p>
+<p>Nessa aba estarão disponíveis 8 (oito) campos para configurar a integração com o sistema. Vale lembrar que <b>o valor dos campos é único e disponibilizado apenas pela empresa e por isso não será abordado nessa documentação</b>.</p>
 
 <p>Com o devido preenchimento dos campos, basta clicar em "Submit" e os dados serão setados no Banco de dados do WordPress.</p>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/93988164/150458879-87890919-cd3a-4cc2-9f02-1150cc413c4f.gif">
 </div>
 
-
-<p>Depois de configurar os dados de integração corretamente, você deverá acessar o painel do plugin contact form 7 no menu "contato&gtFormulários de contato", criar um novo formulário, nomea-lo como "WW7 - Syonet API" para a fácil identificação e, adicionar os seguintes campos com as segintes ID's:</p>
+<p>Depois de configurar os dados de integração corretamente, você deverá acessar o painel do plugin contact form 7 no menu "contato&gtFormulários de contato", criar um novo formulário, nomea-lo como "WW7 - Syonet API" para a fácil identificação e, adicionar os seguintes campos com as seguintes ID's:</p>
 
 <blockquote>
   &lt div id="ww7syonetapi_name" &gt <br/>
@@ -68,7 +67,7 @@
 </div>
 
 <h3>Formas de uso</h3>
-<p>Para utilizar o plugin, basta que você cole o shortcode do Contact Form 7 onde desejar em sua página e, <strong>abaixo dele</strong>, você deverá colar o shortcode do plugin WW7 Syonet API específico para o Contact Form 7: <code>[ww7-syonet-api form="C7"]</code>.</p>
+<p>Para utilizar o plugin, basta que você cole o shortcode do Contact Form 7 onde desejar em sua página e, <strong>abaixo dele</strong>, você deverá adicionar o shortcode do plugin WW7 Syonet API específico para o Contact Form 7: <code>[ww7-syonet-api form="C7"]</code>.</p>
 <img src="https://user-images.githubusercontent.com/93988164/150455992-0ed79530-bf16-443d-9352-fffc2c804456.png" >
 
 <h2>Tecnologias utilizadas</h2>
