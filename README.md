@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/93988164/150440511-d018f611-b65d-4f4f-9367-189b3669c4b2.jpg">
+<img src="https://user-images.githubusercontent.com/93988164/150704105-a2fbd3b7-9572-45d2-a3e1-43bfe32010fe.jpg">
 <h1>WW7 - Syonet API</h1>
 <div>
   <img src="https://img.shields.io/badge/Status-Finalizando-blueviolet">
